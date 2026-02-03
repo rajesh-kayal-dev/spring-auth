@@ -1,5 +1,8 @@
 spring:
   application:
     name: server
+  profiles:
+    active: dev
+
 server:
-  port:8000
+  port:8082
