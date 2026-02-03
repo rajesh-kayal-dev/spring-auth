@@ -1,0 +1,48 @@
+ 
+##################################
+# OS Files
+##################################
+.DS_Store
+Thumbs.db
+*.log
+
+##################################
+# IDE
+##################################
+.idea/
+.vscode/
+*.iml
+
+##################################
+# Environment files
+##################################
+.env
+.env.*
+!.env.example
+
+##################################
+# Node / React
+##################################
+node_modules/
+frontend/build/
+frontend/dist/
+
+##################################
+# Spring Boot
+##################################
+backend/target/
+backend/build/
+*.class
+
+##################################
+# Application configs (secrets)
+##################################
+backend/src/main/resources/application.properties
+backend/src/main/resources/application-*.properties
+backend/src/main/resources/application.yml
+
+##################################
+# Database
+##################################
+*.sql
+*.db
